@@ -16,7 +16,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           prompt: |
             Give me a programming joke.
-          provider: github-models
 
       - name: Display AI Response
         run: |
